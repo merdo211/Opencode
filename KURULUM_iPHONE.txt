@@ -1,0 +1,19 @@
+OPENCODE ULTIMATE AI — iPHONE PWA v1
+
+Bu sürüm yerel görev taslakları, beş ajan seçimi, sohbet geçmişi, not/hafıza, JSON yedeği ve tarayıcı destekliyorsa Türkçe dikte içerir.
+Gerçek AI cevapları / OpenCode Windows kontrolü henüz bağlı değildir.
+
+YALNIZCA iPHONE İLE YAYINLAMA
+1) ZIP dosyasını iPhone Dosyalar uygulamasına indir, dokunarak klasöre çıkart.
+2) iPhone Safari'den GitHub.com'a girip giriş yap; yeni public veya private repository oluştur.
+3) ZIP içindeki OpenCode_iOS_PWA klasörünün dosyalarını (klasörün kendisini değil) repo kök dizinine yükle. GitHub web arayüzü mobilde zorlanırsa Safari'de 'Masaüstü Web Sitesi İste' seçeneğini kullan.
+4) Repo Ayarlar > Pages > Build and deployment > Deploy from a branch > main / (root) > Save. GitHub Pages public repo için kolaydır; private repo destek koşulları hesaba göre değişebilir.
+5) GitHub Pages adresin HTTPS olarak yayınlandıktan sonra Safari ile aç. Paylaş > Ana Ekrana Ekle.
+6) iPhone'dan ajan seç, sohbet/görev taslağı oluştur, not kaydet. Ayarlar bölümünde 'AI bağlı değil' yazması bu sürümde normal.
+
+UYARILAR
+- GitHub Pages statik barındırmadır; Python/OpenCode sunucusunu çalıştırmaz.
+- API anahtarı, parola, özel bilgi, gizli şirket verisi gibi şeyleri web dosyalarına veya public GitHub reposuna koyma.
+- Yerel kayıt Safari verileri temizlenirse silinebilir; Hafıza > Verilerimi JSON olarak dışa aktar üzerinden yedek al.
+- Sesli dikte iOS Safari destek durumuna bağlıdır ve çalışmayabilir.
+- Bir sonraki aşamada gerçek AI / Windows için HTTPS, kimlik doğrulama ve sunucu köprüsü tasarlanmalıdır.
